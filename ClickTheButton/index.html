@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click The Button</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="increase()">Click Me</button>
+      <h4>You clicked The button <span id="counter">0</span> Times</h4>
+    </div>
+  </body>
+  <script>
+    // write code here
+    var count = document.querySelector("#counter");
+    function increase() {
+      counter.innerText = Number(count.innerText) + 1;
+    }
+  </script>
+</html>
